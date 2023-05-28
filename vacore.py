@@ -468,7 +468,7 @@ class VACore(JaaCore):
 
     # -------- raw txt running -----------------
     def run_input_str(self,voice_input_str,func_before_run_cmd = None): # voice_input_str - строка распознавания голоса, разделенная пробелами
-                # пример: "ирина таймер пять"
+                # пример: "Катюша таймер пять"
         haveRun = False
         if voice_input_str == None:
             return False

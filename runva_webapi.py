@@ -186,7 +186,7 @@ async def ttsWav(text:str):
     return core.remoteTTSResult
 
 
-# выполняет команду Ирины
+# выполняет команду Катюшы
 # Например: привет, погода.
 @app.get("/sendTxtCmd")
 async def sendSimpleTxtCmd(cmd:str,returnFormat:str = "none"):
@@ -194,7 +194,7 @@ async def sendSimpleTxtCmd(cmd:str,returnFormat:str = "none"):
     return core.remoteTTSResult
 
 # Посылает распознанный текстовый ввод. Если в нем есть имя помощника, выполняется команда.
-# Пример: ирина погода, раз два
+# Пример: Катюша погода, раз два
 @app.get("/sendRawTxt")
 async def sendRawTxt(rawtxt:str,returnFormat:str = "none"):
     return sendRawTxtOrig(rawtxt,returnFormat)

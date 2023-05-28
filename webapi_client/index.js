@@ -49,7 +49,7 @@ async function init() {
 			  
 			  var needReplyWasGiven = false;
 			  if ("restxt" in res) {
-				 //console.log("ИРИНА: ",res.saytxt)
+				 //console.log("КатюшА: ",res.saytxt)
 				 irene_answer.textContent = res.restxt;
 				 needReplyWasGiven = true;
 			  }

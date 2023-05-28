@@ -21,7 +21,7 @@ def start(core:VACore):
             "ttsEngineId2": "", # двиг для прямой озвучки на сервере. Если пуст - используется ttsEngineId
             "playWavEngineId": "consolewav",
             "linguaFrancaLang": "ru", # язык для библиотеки lingua-franca конвертирования чисел
-            "voiceAssNames": "ирина|ирины|ирину",
+            "voiceAssNames": "Катюша|Катюшы|Катюшу",
             "logPolicy": "cmd", # all | cmd | none
 
             "replyNoCommandFound": "Извини, я не поняла",

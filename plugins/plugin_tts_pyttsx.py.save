@@ -75,6 +75,6 @@ def towavfile(core:VACore, text_to_speech:str,wavfile:str):
     Проигрывание речи ответов голосового ассистента (без сохранения аудио)
     :param text_to_speech: текст, который нужно преобразовать в речь
     """
-    print('SOMETHING---------------------------- MISSING', text_to_speech, wavfile)
-    core.ttsEngine.save_to_file(str(text_to_speech),wavfile)
+    
+core.ttsEngine.save_to_file(str(text_to_speech),wavfile)
     core.ttsEngine.runAndWait()

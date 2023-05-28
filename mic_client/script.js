@@ -54,7 +54,7 @@ socket.onmessage = function(event) {
 		  const myJson = await response.json(); //extract JSON from the http response
 
 		  if ("restxt" in myJson) {
-			  console.log("ИРИНА:",myJson.restxt)
+			  console.log("КатюшА:",myJson.restxt)
 		  }
 		  // do something with myJson
 		}
@@ -62,11 +62,11 @@ socket.onmessage = function(event) {
 	  */
   }
   if ("restxt" in res) {
-	 //console.log("ИРИНА: ",res.saytxt)
+	 //console.log("КатюшА: ",res.saytxt)
 	 irene_answer.innerHTML = res.restxt;
   }
   if ("wav_base64" in res) {
-	 //console.log("ИРИНА: ",res.saytxt)
+	 //console.log("КатюшА: ",res.saytxt)
 	 //irene_answer.innerHTML = res.wav_base64;
 	 //console.
 	 var snd = Sound("data:audio/wav;base64," + res.wav_base64);

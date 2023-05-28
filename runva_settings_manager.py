@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print("Settings manager for VoiceAssistantCore.")
 
     gr_int = cmd_core.gradio_render_settings_interface(
-        title="Менеджер настроек для голосового помощника Ирины",
+        title="Менеджер настроек для голосового помощника Катюшы",
         #required_fields_to_show_plugin=["options","description"]
         required_fields_to_show_plugin=["options","description"]
     )
