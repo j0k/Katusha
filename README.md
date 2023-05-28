@@ -10,7 +10,7 @@
 
 ## Благодарности
 
-- Организаторам ЛТЦ 2023 и TADA.TEAM
+- Организаторам [ЛТЦ 2023](https://leaders2023.innoagency.ru/) и [TADA.TEAM](https://tdwiki.notion.site/71434587caa843f7976e39505163b1a3)
 - Вячеславу Бессонову за Rasberry Pi 3 и помощь в настройке, Михаилу Майорову за 3D, [Борису](https://t.me/hardhead_it_tbilisi) за сопровождение
 - Владиславу Джанварёву за голосового ассистента [Ирину](https://github.com/janvarev/Irene-Voice-Assistant) ([fund](https://boosty.to/irene-voice))
 - @EnjiRouz за голосового ассистента https://github.com/EnjiRouz/Voice-Assistant-App, который стал основой Ирины
