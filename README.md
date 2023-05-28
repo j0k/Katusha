@@ -7,6 +7,7 @@
 
 ## Благодарности
 
+- Организаторам ЛТЦ 2023 и TADA.TEAM
 - Владиславу Джанарёву за голосового ассистента [Ирину](https://github.com/janvarev/Irene-Voice-Assistant) ([fund](https://boosty.to/irene-voice))
 - @EnjiRouz за голосового ассистента https://github.com/EnjiRouz/Voice-Assistant-App, который стал основой Ирины
 - AlphaCephei за прекрасную библиотеку распознавания Vosk ( https://alphacephei.com/vosk/index.ru )
