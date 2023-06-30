@@ -28,7 +28,12 @@ Near to step-by-step guide
   ```
 
 6. заменяем в файле **options/core.json** с `"playWavEngineId":"audioplayer"` на `"sounddevice"`
-7. доставляем завимости
+
+   ```bash
+   jq '.playWavEngineId = "sounddevice"' options/core.json | sponge options/core.json
+   ```
+   
+8. доставляем завимости
 
   ```bash
   sudo apt-get install libsndfile1-dev
